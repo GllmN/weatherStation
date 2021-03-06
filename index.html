@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="design/default.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <title>Station météo</title>
+  </head>
+  <body>
+    <!-- Titre -->
+    <h1>Météo</h1>
+
+    <!-- Ville géolocalisé -->
+    <h3><span id="ville">Patientez</span></h3>
+
+    <!-- Condition / Temperature -->
+    <div id="temperature">
+      <span id="temperature_label">
+        ...
+      </span> °C
+    </div>
+
+    <!-- Condition / Vent -->
+    <div id="vent">
+      <span id="wind_label">
+        ...
+      </span> Km/h
+    </div>
+
+    <!-- Changer de ville -->
+    <button id="changer">
+      Changer de ville
+    </button>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2021 - Tous droits réservés - Web designer / Développeur : Guillaume Neau </p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="src/station.js"></script>
+
+  </body>
+</html>

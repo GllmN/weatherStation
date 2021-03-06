@@ -1,0 +1,51 @@
+html{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-image: url('../pictures/background.jpg');
+  background-size: cover;
+	background-position: center;
+  height: 1000px;
+}
+
+button{
+  color: #fff;
+  background-color: #333;
+  transition: all 0.5s ease-out;
+}
+
+button:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+footer {
+	text-align: center;
+	color : rgba(245, 245, 245, 0.801);
+  margin-top: 30%;
+	padding: 9px;
+}
+
+#changer {
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 0px black solid;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#temperature {
+  font-size: 3em;
+}
+
+#vent{
+  font-size: 2em;
+}
+
+#ville {
+  text-transform: capitalize;
+  font-size: 2em;
+}
