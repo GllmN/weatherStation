@@ -1,6 +1,6 @@
 // Déclaration des variables génériques
 let villeDefault;
-let apiKey = "13c57efc2c9158a847613fd0231ce56a";
+let apiKey = "***";
 
 //Géolocalisation
 if("geolocation" in navigator) {
