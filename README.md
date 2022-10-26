@@ -1,5 +1,5 @@
 # WEATHERSTATION
-Creation an application with Node.js with one or more API request.
+Creation an application in Javascript with one or more API request.
 
 It's an application weather geolocalisable with temperature and wind.
 
